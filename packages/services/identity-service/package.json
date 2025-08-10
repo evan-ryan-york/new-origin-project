@@ -1,0 +1,18 @@
+{
+  "name": "@new-origin/identity-service",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@new-origin/shared-types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "eslint": "^8"
+  }
+}
